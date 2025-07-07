@@ -52,4 +52,10 @@ numeroAleatorio = Math.floor(numeroAleatorio);
 senha = senha + alfabeto[numeroAleatorio];
 }
 campoSenha.value = senha;
+classificaSenha();
+
+}
+	const forcaSenha = document.querySelector('.forca');
+function classificaSenha(){
+    forcaSenha.classList.add('forte');
 }
